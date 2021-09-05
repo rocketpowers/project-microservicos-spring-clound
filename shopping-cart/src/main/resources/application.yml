@@ -1,0 +1,9 @@
+
+spring:
+
+  application:
+    name: shopping-cart
+
+  cloud:
+    config:
+      url: http://github.com/oswaldoneto/dio-eperts-config.git
