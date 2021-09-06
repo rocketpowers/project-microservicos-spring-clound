@@ -6,4 +6,4 @@ spring:
 
   cloud:
     config:
-      url: http://github.com/oswaldoneto/dio-eperts-config.git
+      uri: http://localhost:8888
