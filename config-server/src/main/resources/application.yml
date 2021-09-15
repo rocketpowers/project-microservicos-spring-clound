@@ -7,4 +7,4 @@ server:
       config:
         server:
           git:
-            https://github.com/rocketpowers/config-microservices.git
+            uri: https://github.com/rocketpowers/config-microservices.git

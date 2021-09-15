@@ -5,4 +5,4 @@ spring:
 
     cloud:
       config:
-        uri: https://github.com/oswaldoneto/dio-experts-config.git
+        uri: https://localhost:8888

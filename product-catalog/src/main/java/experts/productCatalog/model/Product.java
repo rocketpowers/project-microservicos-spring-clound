@@ -9,6 +9,8 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @Getter
 @Setter
 @Document(indexName = "product", type = "catalog")
+//@Document(indexName = "product")
+
 public class Product {
 
     @Id
