@@ -19,9 +19,10 @@ public class ProductController {
         return productRepository.save(product);
 
     }
+
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     Optional <Product> findById(@PathVariable Integer id){
-        return ProductRepository.findById(id);
+        return productRepository.findById(id);
 
 
     }
