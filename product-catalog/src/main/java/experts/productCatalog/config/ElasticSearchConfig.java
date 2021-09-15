@@ -11,9 +11,8 @@ import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfig
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "experts.productcatalog.repository")
+@EnableElasticsearchRepositories(basePackages = "experts.productCatalog.repository")
 public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
-
 
     @Override
     public RestHighLevelClient elasticSearchClient(){
@@ -30,9 +29,5 @@ public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
                 new DefaultConversionService());
         entityMapper.setConversions(elasticsearchCustomConversions());
         return  entityMapper;
-
-
     }
-
-
 }

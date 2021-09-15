@@ -1,0 +1,8 @@
+
+spring:
+  aplication:
+    name: service-discovery
+
+    cloud:
+      config:
+        uri: https://github.com/oswaldoneto/dio-experts-config.git
